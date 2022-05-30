@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
+  height: 600px;
 }
 
 
@@ -58,7 +59,7 @@ ul {
 
 /* Fixed width container class that will "auto-center" itself */
 .big-container {
-
+ 
   margin: 111px 10px 10px 30px;
 }
 
@@ -164,6 +165,11 @@ p {
 
 
 .row-3 {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 9999;
   display: flex;
   flex-direction: row;
   align-items: stretch;
@@ -172,7 +178,7 @@ p {
   height: inherit;
   width: 80%;
   border-radius: 5%;
-  margin: 10px 10px 10px 130px;
+  margin: 10px 50px 10px 130px;
 }
 
 .row-3-col img {
