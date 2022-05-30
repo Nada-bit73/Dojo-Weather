@@ -1,0 +1,196 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgb(119, 173, 212);
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  padding-left: 20px;
+  font-family: 'Roboto Mono', monospace;
+  z-index: 9999;
+
+}
+
+.nav-links a {
+  display: block;
+  padding: 8px;
+  color: aliceblue;
+  text-decoration: none;
+  float: left;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.nav-links {
+
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  justify-content: space-between;
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+.nav-title {
+  font-size: 40px;
+  margin: 17px 12px 17px 69px;
+}
+
+/*Navbar styling End*/
+
+/* Fixed width container class that will "auto-center" itself */
+.big-container {
+
+  margin: 111px 10px 10px 30px;
+}
+
+.btn {
+  background-color: rgb(5, 152, 220);
+  width: 106px;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid black;
+  box-shadow: 10px 3px black;
+  font-weight: bold;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+  font-size: 18px;
+  width: 100%;
+
+
+}
+
+.sub-row-1 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  margin-left: 196px;
+}
+
+.sub-row-1 p {
+  padding-right: 30px;
+  margin-top: 13px;
+  font-weight: bold;
+}
+
+hr {
+  display: block;
+  margin-top: 1.5em;
+  width: 80%;
+  margin: 10px auto;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.row-2-col {
+  justify-content: center;
+  background-color: lightgray;
+  height: 300px;
+  width: 250px;
+  border-radius: 5%;
+  margin: 20px 10px 10px 10px;
+}
+
+.row-2-col h1 {
+  padding: 12px 0px 5px 70px;
+}
+
+img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px -50px;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.blue {
+  color: rgb(5, 152, 220);
+ 
+}
+
+
+
+
+
+p {
+  align-items: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 12px 0px 5px 80px;
+}
+
+
+.row-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border: 3px solid black;
+  background-color: lightgray;
+  height: inherit;
+  width: 80%;
+  border-radius: 5%;
+  margin: 10px 10px 10px 130px;
+}
+
+.row-3-col img {
+
+  margin: 40px 30px;
+
+}
+
+.cookie {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px -50px;
+  color: black;
+}
+
+.row-3-col h1 {
+  margin: 10px 10px 10px 60px;
+}
+
+
+/*Navbar styling*/
